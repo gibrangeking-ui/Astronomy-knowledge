@@ -1,2 +1,0 @@
-# Astronomy-knowledge
-ensiklopedia astronomy
