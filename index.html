@@ -6,16 +6,16 @@
     <title>Astronomy Knowledge — Develop by Gibzz astronomy</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true
-    }
-  };
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
 </head>
 <body>
 
@@ -44,92 +44,82 @@
         <div class="grid">
             <div class="card">
                 <h3>Bintang (Stars)</h3>
+                <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=500" alt="Bintang" class="astro-img">
                 <p>Bola plasma raksasa yang menghasilkan energi melalui fusi nuklir. Contoh terdekat adalah Matahari kita.</p>
             </div>
             <div class="card">
                 <h3>Lubang Hitam (Black Hole)</h3>
+                <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=500" alt="Black Hole" class="astro-img">
                 <p>Wilayah ruang-waktu dengan gravitasi sangat kuat sehingga cahaya pun tidak bisa lepas darinya.</p>
             </div>
             <div class="card">
                 <h3>Galaksi</h3>
+                <img src="https://images.unsplash.com/photo-1462332420958-a05d1e002413?q=80&w=500" alt="Galaksi" class="astro-img">
                 <p>Sistem masif yang terikat gaya gravitasi, terdiri atas bintang, gas, debu, dan materi gelap.</p>
             </div>
-        <div class="card">
-    <h3>Bulan (Satelit Alami)</h3>
-    <p>Satu-satunya satelit alami Bumi. Bulan mempengaruhi pasang surut air laut dan menstabilkan kemiringan sumbu rotasi Bumi, yang menjaga iklim tetap layak huni.</p>
-</div>
-<div class="card">
-    <h3>Exoplanet</h3>
-    <p>Planet yang berada di luar Tata Surya kita. Hingga saat ini, ribuan exoplanet telah ditemukan, beberapa di antaranya berada di "Zona Layak Huni" bintangnya.</p>
-</div>
-<div class="card">
-    <h3>Nebula</h3>
-    <p>Awan raksasa yang terdiri dari debu dan gas (hidrogen/helium) di ruang antarbintang. Nebula sering kali menjadi tempat kelahiran bintang-bintang baru (Stellar Nursery).</p>
-</div>
-<div class="card">
-    <h3>Komet</h3>
-    <p>Sering disebut "bola salju kotor", komet terdiri dari es, debu, dan batuan beku. Saat mendekati Matahari, panasnya menguapkan es dan membentuk ekor gas yang panjang.</p>
-</div>
-<div class="card">
-    <h3>Pulsar</h3>
-    <p>Bintang neutron yang berputar sangat cepat dan memancarkan radiasi elektromagnetik dari kutub magnetnya, tampak seperti mercusuar di alam semesta.</p>
-    </div>
+            <div class="card">
+                <h3>Bulan (Satelit Alami)</h3>
+                <img src="https://images.unsplash.com/photo-1522030239044-12af3d854020?q=80&w=500" alt="Bulan" class="astro-img">
+                <p>Satu-satunya satelit alami Bumi. Bulan mempengaruhi pasang surut air laut dan menstabilkan poros Bumi.</p>
+            </div>
+            <div class="card">
+                <h3>Exoplanet</h3>
+                <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=500" alt="Exoplanet" class="astro-img">
+                <p>Planet yang berada di luar Tata Surya kita. Beberapa ditemukan di "Zona Layak Huni".</p>
+            </div>
+            <div class="card">
+                <h3>Nebula</h3>
+                <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?q=80&w=500" alt="Nebula" class="astro-img">
+                <p>Awan raksasa terdiri dari debu dan gas. Sering menjadi tempat kelahiran bintang-bintang baru.</p>
+            </div>
+            <div class="card">
+                <h3>Komet</h3>
+                <img src="https://images.unsplash.com/photo-1538370910046-8729f1504629?q=80&w=500" alt="Komet" class="astro-img">
+                <p>Bola salju kotor yang menguap dan membentuk ekor panjang saat mendekati Matahari.</p>
+            </div>
+            <div class="card">
+                <h3>Pulsar</h3>
+                <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=500" alt="Pulsar" class="astro-img">
+                <p>Bintang neutron berputar sangat cepat dan memancarkan radiasi elektromagnetik bak mercusuar.</p>
+            </div>
+        </div>
     </section>
 
     <section id="astrophysics" class="container bg-dark">
         <h2 class="section-title">Rumah Rumus Astrofisika</h2>
+        
         <div class="formula-box">
             <h3>Hukum Gravitasi Universal Newton</h3>
-            <p>Digunakan untuk menghitung gaya tarik antara dua benda bermassa di alam semesta.</p>
-            <div class="formula">
-                $F = G \frac{m_1 m_2}{r^2}$
-            </div>
+            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=800" alt="Gravitasi" class="formula-img">
+            <div class="formula">$F = G \frac{m_1 m_2}{r^2}$</div>
             <ul class="description">
                 <li><strong>F:</strong> Gaya gravitasi (Newton)</li>
-                <li><strong>G:</strong> Konstanta gravitasi ($6.674 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$)</li>
-                <li><strong>m1, m2:</strong> Massa kedua benda (kg)</li>
-                <li><strong>r:</strong> Jarak antara pusat massa kedua benda (m)</li>
+                <li><strong>G:</strong> Konstanta gravitasi</li>
+                <li><strong>m1, m2:</strong> Massa benda</li>
+                <li><strong>r:</strong> Jarak pusat massa</li>
             </ul>
         </div>
+
         <div class="formula-box" style="margin-top: 2rem;">
-    <h3>Rumus Energi Einstein (E=mc²)</h3>
-    <p>Menjelaskan bahwa massa dapat diubah menjadi energi, yang merupakan prinsip dasar bagaimana bintang menghasilkan panas dan cahaya melalui fusi nuklir.</p>
-    <div class="formula">
-        $E = mc^2$
-    </div>
-    <ul class="description">
-        <li><strong>E:</strong> Energi total (Joule)</li>
-        <li><strong>m:</strong> Massa benda (kg)</li>
-        <li><strong>c:</strong> Kecepatan cahaya di ruang hampa ($3 \times 10^8 \text{ m/s}$)</li>
-    </ul>
-</div>
+            <h3>Rumus Energi Einstein (E=mc²)</h3>
+            <img src="https://images.unsplash.com/photo-1632571401005-458e9d244591?q=80&w=800" alt="E=mc2" class="formula-img">
+            <div class="formula">$E = mc^2$</div>
+            <p>Prinsip dasar fusi nuklir pada bintang.</p>
+        </div>
 
-<div class="formula-box" style="margin-top: 2rem;">
-    <h3>Jari-jari Schwarzschild (Event Horizon)</h3>
-    <p>Digunakan untuk menghitung radius "titik tanpa harapan" di sekitar lubang hitam, di mana kecepatan lepasnya sama dengan kecepatan cahaya.</p>
-    <div class="formula">
-        $R_s = \frac{2GM}{c^2}$
-    </div>
-    <ul class="description">
-        <li><strong>Rs:</strong> Radius Schwarzschild (m)</li>
-        <li><strong>G:</strong> Konstanta gravitasi</li>
-        <li><strong>M:</strong> Massa lubang hitam (kg)</li>
-        <li><strong>c:</strong> Kecepatan cahaya</li>
-    </ul>
-</div>
+        <div class="formula-box" style="margin-top: 2rem;">
+            <h3>Jari-jari Schwarzschild</h3>
+            <img src="https://images.unsplash.com/photo-1543722530-d2c32013a181?q=80&w=800" alt="Event Horizon" class="formula-img">
+            <div class="formula">$R_s = \frac{2GM}{c^2}$</div>
+            <p>Radius cakrawala peristiwa sebuah lubang hitam.</p>
+        </div>
 
-<div class="formula-box" style="margin-top: 2rem;">
-    <h3>Hukum Pergeseran Wien</h3>
-    <p>Membantu astronom mengetahui suhu permukaan sebuah bintang hanya dengan melihat warna atau panjang gelombang cahaya yang paling dominan terpancar darinya.</p>
-    <div class="formula">
-        $\lambda_{max} = \frac{b}{T}$
-    </div>
-    <ul class="description">
-        <li><strong>λmax:</strong> Panjang gelombang puncak (meter)</li>
-        <li><strong>T:</strong> Suhu mutlak bintang (Kelvin)</li>
-        <li><strong>b:</strong> Konstanta Wien ($2.897 \times 10^{-3} \text{ m.K}$)</li>
-    </ul>
-            </div>
+        <div class="formula-box" style="margin-top: 2rem;">
+            <h3>Hukum Pergeseran Wien</h3>
+            <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bcc0?q=80&w=800" alt="Star Spectrum" class="formula-img">
+            <div class="formula">$\lambda_{max} = \frac{b}{T}$</div>
+            <p>Hubungan antara suhu bintang dengan panjang gelombang cahaya.</p>
+        </div>
     </section>
 
     <footer id="footer">
@@ -137,4 +127,4 @@
     </footer>
 
 </body>
-</html>
+    </html>
